@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Adwitiya Wellness — A luxury spa experience offering massage therapy, facials, body treatments and holistic wellness in Rajkot, Gujarat, India." />
+  <meta name="keywords" content="luxury spa, wellness, massage therapy, facial treatment, body spa, relaxation, holistic wellness" />
+  <meta name="author" content="Adwitiya Wellness" />
+  <meta property="og:title" content="Adwitiya Wellness | Premium Luxury Spa" />
+  <meta property="og:description" content="Escape to pure tranquility. World-class treatments crafted for your body, mind, and soul." />
+  <meta property="og:type" content="website" />
+  <title>Adwitiya Wellness | Premium Luxury Spa</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     NAVBAR
+═══════════════════════════════════════════ -->
+<nav class="navbar" role="navigation" aria-label="Main Navigation">
+  <a href="index.html" class="navbar-logo" aria-label="Adwitiya Wellness Home">
+    <span class="logo-main">Adwitiya</span>
+    <span class="logo-sub">Wellness</span>
+  </a>
+
+  <div class="navbar-links">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="pricing.html">Services &amp; Pricing</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <a href="contact.html" class="btn btn-primary navbar-cta" style="padding:10px 24px;font-size:0.75rem;">
+    Book Now
+  </a>
+
+  <button class="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile Navigation" aria-modal="true">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="pricing.html">Services &amp; Pricing</a>
+  <a href="contact.html">Contact &amp; Book</a>
+  <div class="mobile-menu-footer">
+    <p>Adwitiya Wellness</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     HERO
+═══════════════════════════════════════════ -->
+<section class="hero" aria-label="Hero Section">
+  <div class="hero-bg">
+    <img
+      src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=1600&q=80"
+      alt="Serene spa environment with soft lighting and natural elements"
+      loading="eager"
+    />
+  </div>
+
+  <div class="container">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Welcome to Adwitiya</p>
+      <h1>
+        Restore.<br />
+        <em>Rejuvenate.</em><br />
+        Reconnect.
+      </h1>
+      <p class="hero-desc">
+        Step into a world of pure tranquility. Our master therapists craft bespoke wellness experiences that heal your body, calm your mind, and elevate your spirit.
+      </p>
+      <div class="hero-cta">
+        <a href="contact.html" class="btn btn-primary">
+          Book Your Escape
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+        <a href="pricing.html" class="btn btn-ghost">Explore Treatments</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll" aria-hidden="true">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     MARQUEE BAR
+═══════════════════════════════════════════ -->
+<div class="marquee-bar" aria-hidden="true">
+  <div class="marquee-track">
+    <span class="marquee-item"><span class="marquee-dot"></span>Massage Therapy</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Facial Treatments</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Body Wraps</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Couples Retreat</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Aromatherapy</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Hot Stone Therapy</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Wellness Programs</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Meditation Sessions</span>
+    <!-- Duplicate for seamless loop -->
+    <span class="marquee-item"><span class="marquee-dot"></span>Massage Therapy</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Facial Treatments</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Body Wraps</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Couples Retreat</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Aromatherapy</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Hot Stone Therapy</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Wellness Programs</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Meditation Sessions</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     SERVICES
+═══════════════════════════════════════════ -->
+<section class="section services" id="services" aria-labelledby="services-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="label">Our Offerings</p>
+      <h2 id="services-heading">Curated Spa Experiences</h2>
+      <p>From ancient healing rituals to modern wellness science — each treatment is a masterpiece crafted for your unique needs.</p>
+    </div>
+
+    <div class="services-grid">
+
+      <article class="service-card reveal" data-delay="100" style="aspect-ratio:16/9;">
+        <img
+          src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=800&q=80"
+          alt="Professional massage therapy session"
+          loading="lazy"
+        />
+        <div class="service-card-overlay">
+          <span class="service-card-num">01</span>
+          <h3 class="service-card-title">Massage Therapy</h3>
+          <p class="service-card-sub">From $95 · 60–120 min</p>
+          <a href="pricing.html" class="service-card-link">
+            Explore
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="service-card reveal" data-delay="200">
+        <img
+          src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=80"
+          alt="Luxury facial treatment"
+          loading="lazy"
+        />
+        <div class="service-card-overlay">
+          <span class="service-card-num">02</span>
+          <h3 class="service-card-title">Facial Treatments</h3>
+          <p class="service-card-sub">From $85 · 45–90 min</p>
+          <a href="pricing.html" class="service-card-link">
+            Explore
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="service-card reveal" data-delay="300">
+        <img
+          src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&q=80"
+          alt="Aromatic body wrap treatment"
+          loading="lazy"
+        />
+        <div class="service-card-overlay">
+          <span class="service-card-num">03</span>
+          <h3 class="service-card-title">Body Spa &amp; Wraps</h3>
+          <p class="service-card-sub">From $110 · 75–90 min</p>
+          <a href="pricing.html" class="service-card-link">
+            Explore
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="service-card reveal" data-delay="400">
+        <img
+          src="https://images.unsplash.com/photo-1596178065887-1198b6148b2b?w=800&q=80"
+          alt="Couples spa retreat experience"
+          loading="lazy"
+        />
+        <div class="service-card-overlay">
+          <span class="service-card-num">04</span>
+          <h3 class="service-card-title">Couples Retreat</h3>
+          <p class="service-card-sub">From $220 · 2–3 hrs</p>
+          <a href="pricing.html" class="service-card-link">
+            Explore
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="service-card reveal" data-delay="500">
+        <img
+          src="https://images.unsplash.com/photo-1621607512022-6aecc4fed814?w=800&q=80"
+          alt="Hot stone massage therapy"
+          loading="lazy"
+        />
+        <div class="service-card-overlay">
+          <span class="service-card-num">05</span>
+          <h3 class="service-card-title">Hot Stone Therapy</h3>
+          <p class="service-card-sub">From $120 · 75 min</p>
+          <a href="pricing.html" class="service-card-link">
+            Explore
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="service-card reveal" data-delay="500">
+        <img
+          src="https://images.unsplash.com/photo-1655187543843-52c3cbb0b0ce?w=800&q=80"
+          alt="Holistic wellness program session"
+          loading="lazy"
+        />
+        <div class="service-card-overlay">
+          <span class="service-card-num">06</span>
+          <h3 class="service-card-title">Wellness Programs</h3>
+          <p class="service-card-sub">From $280 · Full Day</p>
+          <a href="pricing.html" class="service-card-link">
+            Explore
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+    </div><!-- /services-grid -->
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     WHY CHOOSE US
+═══════════════════════════════════════════ -->
+<section class="section why-us" aria-labelledby="why-heading">
+  <div class="why-us-bg-deco" aria-hidden="true"></div>
+  <div class="container">
+    <div class="why-us-layout">
+
+      <div class="why-us-image reveal-left">
+        <div class="why-us-image-main">
+          <img
+            src="https://images.unsplash.com/photo-1591343395082-e120087004b4?w=900&q=80"
+            alt="Serene spa interior with natural light and elegant design"
+            loading="lazy"
+          />
+        </div>
+        <div class="why-us-badge" aria-label="Over 12 years of excellence">
+          <span class="num" data-count="12">0</span>
+          <span class="txt">Years of<br/>Excellence</span>
+        </div>
+      </div>
+
+      <div class="why-us-content reveal-right">
+        <p class="label text-gold">Why Choose Adwitiya Wellness</p>
+        <h2 id="why-heading" style="font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:300;margin-bottom:16px;">
+          An Elevated Wellness<br/>Experience, Every Visit
+        </h2>
+        <p style="color:var(--text-mid);margin-bottom:32px;line-height:1.8;">
+          We believe wellness is not a luxury — it's a necessity. Every element of Adwitiya Wellness is designed to dissolve stress, restore balance, and awaken your senses.
+        </p>
+
+        <div class="why-features">
+          <div class="why-feature">
+            <div class="why-icon" aria-hidden="true">🌿</div>
+            <div>
+              <h4>Certified Master Therapists</h4>
+              <p>All therapists hold advanced certifications with a minimum of 5 years' clinical experience in luxury wellness environments.</p>
+            </div>
+          </div>
+
+          <div class="why-feature">
+            <div class="why-icon" aria-hidden="true">✦</div>
+            <div>
+              <h4>Organic &amp; Premium Products</h4>
+              <p>We exclusively use certified organic, cruelty-free product lines sourced from around the world.</p>
+            </div>
+          </div>
+
+          <div class="why-feature">
+            <div class="why-icon" aria-hidden="true">🕊️</div>
+            <div>
+              <h4>Bespoke Treatment Plans</h4>
+              <p>Each visit begins with a personal wellness consultation to tailor every treatment to your specific needs.</p>
+            </div>
+          </div>
+
+          <div class="why-feature">
+            <div class="why-icon" aria-hidden="true">💎</div>
+            <div>
+              <h4>5-Star Tranquil Environment</h4>
+              <p>Our space is thoughtfully designed — from lighting and scent to sound and temperature — for ultimate relaxation.</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:40px;">
+          <a href="about.html" class="btn btn-primary">Discover Our Story</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     FEATURED TREATMENTS
+═══════════════════════════════════════════ -->
+<section class="section treatments" aria-labelledby="treat-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="label" style="color:var(--gold);">Signature Treatments</p>
+      <h2 id="treat-heading" style="color:var(--beige);">Our Most Beloved Rituals</h2>
+      <p>Handcrafted to deliver transformative results with every visit.</p>
+    </div>
+
+    <div class="treat-grid">
+
+      <div class="treat-item reveal" data-delay="100">
+        <div class="treat-item-left">
+          <div class="treat-icon" aria-hidden="true">🌸</div>
+          <div>
+            <p class="treat-name">Himalayan Salt Stone Massage</p>
+            <p class="treat-duration">90 min · Deep Tissue &amp; Mineral Infusion</p>
+          </div>
+        </div>
+        <span class="treat-price">$145</span>
+      </div>
+
+      <div class="treat-item reveal" data-delay="200">
+        <div class="treat-item-left">
+          <div class="treat-icon" aria-hidden="true">🌺</div>
+          <div>
+            <p class="treat-name">Rose Gold Glow Facial</p>
+            <p class="treat-duration">75 min · Anti-Aging &amp; Brightening</p>
+          </div>
+        </div>
+        <span class="treat-price">$125</span>
+      </div>
+
+      <div class="treat-item reveal" data-delay="300">
+        <div class="treat-item-left">
+          <div class="treat-icon" aria-hidden="true">🍵</div>
+          <div>
+            <p class="treat-name">Green Tea Detox Body Wrap</p>
+            <p class="treat-duration">90 min · Purifying &amp; Firming</p>
+          </div>
+        </div>
+        <span class="treat-price">$135</span>
+      </div>
+
+      <div class="treat-item reveal" data-delay="400">
+        <div class="treat-item-left">
+          <div class="treat-icon" aria-hidden="true">🕯️</div>
+          <div>
+            <p class="treat-name">Candlelight Couples Ritual</p>
+            <p class="treat-duration">2.5 hrs · Massage, Facial &amp; Bath</p>
+          </div>
+        </div>
+        <span class="treat-price">$295</span>
+      </div>
+
+      <div class="treat-item reveal" data-delay="100">
+        <div class="treat-item-left">
+          <div class="treat-icon" aria-hidden="true">🌊</div>
+          <div>
+            <p class="treat-name">Deep Ocean Mineral Soak</p>
+            <p class="treat-duration">60 min · Hydrotherapy &amp; Relaxation</p>
+          </div>
+        </div>
+        <span class="treat-price">$95</span>
+      </div>
+
+      <div class="treat-item reveal" data-delay="200">
+        <div class="treat-item-left">
+          <div class="treat-icon" aria-hidden="true">🌙</div>
+          <div>
+            <p class="treat-name">Midnight Recovery Treatment</p>
+            <p class="treat-duration">75 min · Restoration &amp; Rejuvenation</p>
+          </div>
+        </div>
+        <span class="treat-price">$155</span>
+      </div>
+
+    </div>
+
+    <div style="text-align:center;margin-top:48px;" class="reveal">
+      <a href="pricing.html" class="btn btn-outline">View Full Menu &amp; Pricing</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     TESTIMONIALS
+═══════════════════════════════════════════ -->
+<section class="section testimonials" aria-labelledby="test-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="label">Client Stories</p>
+      <h2 id="test-heading">Words From Our Guests</h2>
+      <p>Real experiences from those who have discovered their sanctuary here.</p>
+    </div>
+
+    <div class="testimonials-slider">
+
+      <article class="testimonial-card reveal" data-delay="100">
+        <span class="quote-mark" aria-hidden="true">"</span>
+        <p class="testimonial-text">The Rose Gold Facial left my skin glowing for weeks, and the ambiance is unlike any spa I've visited across the world.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">
+            <img src="https://i.pravatar.cc/100?img=47" alt="Portrait of Sofia M." loading="lazy" />
+          </div>
+          <div>
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <p class="author-name">Sofia M.</p>
+            <p class="author-role">Interior Designer, Dubai</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="testimonial-card reveal" data-delay="200">
+        <span class="quote-mark" aria-hidden="true">"</span>
+        <p class="testimonial-text">I've been a member for two years and the consistency of quality is remarkable. Every therapist is truly exceptional. My monthly ritual I look forward to immensely.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">
+            <img src="https://i.pravatar.cc/100?img=32" alt="Portrait of James T." loading="lazy" />
+          </div>
+          <div>
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <p class="author-name">James T.</p>
+            <p class="author-role">Executive Director, London</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="testimonial-card reveal" data-delay="300">
+        <span class="quote-mark" aria-hidden="true">"</span>
+        <p class="testimonial-text">The Couples Retreat was the most romantic, rejuvenating experience of our lives. Every detail was perfect — from the rose petals to the champagne on arrival.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">
+            <img src="https://i.pravatar.cc/100?img=25" alt="Portrait of Amara L." loading="lazy" />
+          </div>
+          <div>
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <p class="author-name">Amara L.</p>
+            <p class="author-role">Lifestyle Blogger</p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Stats Row -->
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:64px;text-align:center;" class="reveal">
+      <div>
+        <div style="font-family:var(--font-display);font-size:clamp(2.5rem,5vw,4rem);font-weight:300;color:var(--gold);line-height:1;">
+          <span data-count="4800">0</span>+
+        </div>
+        <p style="font-size:0.78rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--text-light);margin-top:8px;">Happy Guests</p>
+      </div>
+      <div>
+        <div style="font-family:var(--font-display);font-size:clamp(2.5rem,5vw,4rem);font-weight:300;color:var(--gold);line-height:1;">
+          <span data-count="98">0</span>%
+        </div>
+        <p style="font-size:0.78rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--text-light);margin-top:8px;">Satisfaction Rate</p>
+      </div>
+      <div>
+        <div style="font-family:var(--font-display);font-size:clamp(2.5rem,5vw,4rem);font-weight:300;color:var(--gold);line-height:1;">
+          <span data-count="24">0</span>
+        </div>
+        <p style="font-size:0.78rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--text-light);margin-top:8px;">Expert Therapists</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     GALLERY
+═══════════════════════════════════════════ -->
+<section class="section gallery" aria-labelledby="gallery-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="label">The Space</p>
+      <h2 id="gallery-heading">Our Sanctuary</h2>
+      <p>A visual journey through the tranquil spaces where transformation takes place.</p>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item reveal">
+        <img
+          src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&q=80"
+          alt="Luxury spa reception and waiting area"
+          loading="lazy"
+        />
+        <div class="gallery-item-overlay" aria-hidden="true">🔍</div>
+      </div>
+      <div class="gallery-item reveal" data-delay="100">
+        <img
+          src="https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?w=600&q=80"
+          alt="Tranquil treatment room with candles"
+          loading="lazy"
+        />
+        <div class="gallery-item-overlay" aria-hidden="true">🔍</div>
+      </div>
+      <div class="gallery-item reveal" data-delay="200">
+        <img
+          src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80"
+          alt="Relaxing pool and hydrotherapy area"
+          loading="lazy"
+        />
+        <div class="gallery-item-overlay" aria-hidden="true">🔍</div>
+      </div>
+      <div class="gallery-item reveal" data-delay="300">
+        <img
+          src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=600&q=80"
+          alt="Aromatic oils and spa products display"
+          loading="lazy"
+        />
+        <div class="gallery-item-overlay" aria-hidden="true">🔍</div>
+      </div>
+      <div class="gallery-item reveal" data-delay="400">
+        <img
+          src="https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=600&q=80"
+          alt="Outdoor relaxation garden area"
+          loading="lazy"
+        />
+        <div class="gallery-item-overlay" aria-hidden="true">🔍</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     SPECIAL OFFER BANNER
+═══════════════════════════════════════════ -->
+<section class="offer-banner" aria-labelledby="offer-heading">
+  <div class="container" style="position:relative;z-index:1;">
+    <span class="offer-badge">Limited Time Offer</span>
+    <h2 id="offer-heading">First Visit Special — Save 25%</h2>
+    <p>
+      Experience the Adwitiya Wellness difference with our exclusive new guest welcome package. Choose any signature treatment and receive 25% off, plus a complimentary aromatherapy add-on.
+    </p>
+    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;" class="reveal">
+      <a href="contact.html" class="btn btn-primary">Claim Your Offer</a>
+      <a href="pricing.html" class="btn btn-outline" style="color:var(--beige-mid);border-color:var(--beige-mid);">View All Packages</a>
+    </div>
+    <p style="margin-top:20px;font-size:0.78rem;color:rgba(237,232,223,0.45);">
+      *Valid for new guests only. Cannot be combined with other offers. Subject to availability.
+    </p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     CONTACT CTA
+═══════════════════════════════════════════ -->
+<section class="section contact-cta" aria-labelledby="cta-heading">
+  <div class="container">
+    <div class="contact-cta-wrap">
+      <div class="section-header reveal" style="margin-bottom:0;">
+        <p class="label">Begin Your Journey</p>
+        <h2 id="cta-heading">Ready to Escape?</h2>
+        <p>Reach out to reserve your treatment or speak with a wellness advisor about creating your perfect spa day.</p>
+      </div>
+
+      <div class="cta-blocks reveal" data-delay="200">
+        <div class="cta-block">
+          <div class="cta-block-icon" aria-hidden="true">📞</div>
+          <h4>Call Us</h4>
+          <p><a href="tel:+917217263163" style="color:var(--gold);">+91 72172 63163</a></p>
+        </div>
+        <div class="cta-block">
+          <div class="cta-block-icon" aria-hidden="true">💬</div>
+          <h4>WhatsApp</h4>
+          <p><a href="https://wa.me/917217263163" style="color:var(--gold);">Message Us</a></p>
+        </div>
+        <div class="cta-block">
+          <div class="cta-block-icon" aria-hidden="true">📧</div>
+          <h4>Email</h4>
+          <p><a href="mailto:adwitiyawellness@gmail.com" style="color:var(--gold);">adwitiyawellness@gmail.com</a></p>
+        </div>
+        <div class="cta-block">
+          <div class="cta-block-icon" aria-hidden="true">🕐</div>
+          <h4>Hours</h4>
+          <p style="color:var(--text-mid);">Mon–Sun: 9am – 9pm</p>
+        </div>
+      </div>
+
+      <div style="text-align:center;margin-top:40px;" class="reveal" data-delay="400">
+        <a href="contact.html" class="btn btn-primary">Book an Appointment</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════ -->
+<footer class="footer" role="contentinfo">
+
+  <!-- Top border accent -->
+  <div class="footer-top-accent"></div>
+
+  <div class="container">
+
+    <!-- Main Grid: Brand | Quick Links | Treatments | Contact -->
+    <div class="footer-main-grid">
+
+      <!-- Col 1: Brand -->
+      <div class="footer-brand-col">
+        <a href="index.html" class="footer-logo" aria-label="Adwitiya Wellness home">
+          <span class="footer-logo-main">Adwitiya</span>
+          <span class="footer-logo-sub">Wellness</span>
+        </a>
+        <p class="footer-tagline">
+          A sanctuary dedicated to the art of holistic wellness. Every visit is crafted to restore balance, renew energy, and reconnect you with your true self.
+        </p>
+        <div class="footer-socials">
+          <a href="#" class="footer-social-link" aria-label="Instagram">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="#" class="footer-social-link" aria-label="Facebook">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="https://wa.me/917217263163" class="footer-social-link" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+          <a href="#" class="footer-social-link" aria-label="YouTube">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Col 2: Quick Links -->
+      <div class="footer-nav-col">
+        <h5 class="footer-col-heading">Quick Links</h5>
+        <nav aria-label="Footer Quick Links">
+          <a href="index.html" class="footer-nav-link">Home</a>
+          <a href="about.html" class="footer-nav-link">About Us</a>
+          <a href="pricing.html" class="footer-nav-link">Services &amp; Pricing</a>
+          <a href="contact.html" class="footer-nav-link">Contact &amp; Book</a>
+        </nav>
+      </div>
+
+      <!-- Col 3: Treatments -->
+      <div class="footer-nav-col">
+        <h5 class="footer-col-heading">Our Treatments</h5>
+        <nav aria-label="Footer Treatments">
+          <a href="pricing.html" class="footer-nav-link">Massage Therapy</a>
+          <a href="pricing.html" class="footer-nav-link">Facial Treatments</a>
+          <a href="pricing.html" class="footer-nav-link">Body Spa &amp; Wraps</a>
+          <a href="pricing.html" class="footer-nav-link">Couples Retreats</a>
+          <a href="pricing.html" class="footer-nav-link">Wellness Programs</a>
+          <a href="pricing.html" class="footer-nav-link">Memberships</a>
+        </nav>
+      </div>
+
+      <!-- Col 4: Contact -->
+      <div class="footer-contact-col">
+        <h5 class="footer-col-heading">Get In Touch</h5>
+        <div class="footer-contact-list">
+          <div class="footer-contact-row">
+            <div class="footer-contact-icon-wrap">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <span>Rajkot, Gujarat, India</span>
+          </div>
+          <div class="footer-contact-row">
+            <div class="footer-contact-icon-wrap">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <a href="tel:+917217263163">+91 72172 63163</a>
+          </div>
+          <div class="footer-contact-row">
+            <div class="footer-contact-icon-wrap">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <a href="mailto:adwitiyawellness@gmail.com">adwitiyawellness@gmail.com</a>
+          </div>
+          <div class="footer-contact-row">
+            <div class="footer-contact-icon-wrap">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <span>Mon – Sun &nbsp;|&nbsp; 9:00 AM – 9:00 PM</span>
+          </div>
+        </div>
+
+        <a href="contact.html" class="footer-cta-btn">Book an Appointment</a>
+      </div>
+
+    </div><!-- /footer-main-grid -->
+
+    <!-- Divider -->
+    <div class="footer-divider"></div>
+
+    <!-- Footer Bottom Bar -->
+    <div class="footer-bottom-bar">
+      <p class="footer-copy">&copy; 2025 Adwitiya Wellness. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <span class="footer-dot">&middot;</span>
+        <a href="#">Terms of Service</a>
+        <span class="footer-dot">&middot;</span>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+
+  </div><!-- /container -->
+</footer>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/917217263163" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+  <div class="whatsapp-float-inner">
+    <svg width="28" height="28" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="whatsapp-tooltip">Chat with us</span>
+  </div>
+</a>
+
+<!-- Back to Top -->
+<button class="back-top" aria-label="Back to top">
+  <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
